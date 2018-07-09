@@ -4,4 +4,4 @@
 #   Written by haotainmichael (2398419426@buaa.edu.cn)
 
 clean:
-	rm -rf *.aux *.bcf *.idx *.log *.ptc *.run.xml *.toc *.pdf
+	rm -rf *.aux *.bcf *.idx *.log *.ptc *.run.xml *.toc *.pdf *.ilg *.blg
