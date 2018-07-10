@@ -77,7 +77,8 @@
 \usepackage{booktabs} % For tables
 \usepackage{tabularx}
 \usepackage{multirow} % for multiple row tables.
-
+\usepackage{lettrine}    %expand font size 
+\usepackage{indentfirst}  %indent at beginning
 %----------------------------------------------------------------------------------------
 %       Some Extra Definitions
 %----------------------------------------------------------------------------------------
@@ -231,10 +232,17 @@ leftmargin=13pt]{pcodeBox}
 \titleGP % This command includes the title page
 
 \frontmatter
-\tableofcontents
 \pagestyle{plain}
-\include{chapter/0-BasicInformation}
+\include{preface/editors}
 \frontmatter
+\tableofcontents
+
+
+\mainmatter
+\pagestyle{fancy}
+\include{chapter/0-BasicInformation}
+
+
 
 %\mainmatter
 %\pagestyle{fancy}
