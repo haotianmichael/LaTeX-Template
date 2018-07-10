@@ -7,7 +7,7 @@
 
 \usepackage{graphicx} % Required for including pictures
 \graphicspath{{Images/}} % Specifies the directory where pictures are stored
-
+\CTEXsetup[format={\Large\bfseries}]{section}    %make section left justifing
 %----------------------------------------------------------------------------------------
 %       Localization
 %----------------------------------------------------------------------------------------
@@ -79,6 +79,14 @@
 \usepackage{multirow} % for multiple row tables.
 \usepackage{lettrine}    %expand font size 
 \usepackage{indentfirst}  %indent at beginning
+
+
+%\makeatletter
+%\renewcommand{\section}{\@startsection{section}{1}{0mm}
+%  {-\baselineskip}{0.5\baselineskip}{\bf\leftline}}
+%\makeatother
+
+
 %----------------------------------------------------------------------------------------
 %       Some Extra Definitions
 %----------------------------------------------------------------------------------------
@@ -240,13 +248,10 @@ leftmargin=13pt]{pcodeBox}
 
 \mainmatter
 \pagestyle{fancy}
-\include{chapter/0-BasicInformation}
+\include{chapter/1-BasicInformation}
+\include{chapter/2-LearningGoals}
+\include{chapter/3-AssessmentforLearning}
 
-
-
-%\mainmatter
-%\pagestyle{fancy}
-%\include{chapter/Art/ArtLearningGoals}
 
 %\begin{appendix}
 %\input{appendix}
