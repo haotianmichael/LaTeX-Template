@@ -9,4 +9,5 @@
 _minted-guide-book
 .DS_Store
 ~*
-
+*.pdf
+*.doc
