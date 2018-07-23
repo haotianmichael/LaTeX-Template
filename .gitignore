@@ -2,7 +2,6 @@
 *.out
 *.aux
 *.log
-*.pdf
 *.toc
 *swp
 *~
@@ -10,4 +9,4 @@
 _minted-guide-book
 .DS_Store
 ~*
-*.doc
+
